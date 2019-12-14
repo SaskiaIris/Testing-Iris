@@ -1,23 +1,22 @@
---- 
-playstore: 
-    script: "echo 'Deploying...'"
-    stage: deploy
-    tags: 
-        - unity
 stages: 
     - test
     - build
     - deploy
 unit-test: 
-    script:
-        - 'd: cd "D:/Program Files/Unity/Editor/"' 
-        - '-batchmode -projectPath D:\Github\testing -runTests -testPlatform editmode -logfile -testResults
-        ./unit-tests.xml | Out-Default'
     stage: test
+    script: 
+        - 'd: cd "D:\Program Files\Unity Hub\Editor\2019.2.5f1\Editor\" -batchmode -projectPath D:\Gebruikers\Iris Oostra\Documenten\GitHub\testing -runTests -testPlatform editmode -logfile - -testResults ./unit-tests.xml | Out-Default'
     tags: 
         - unity
-unity-build: 
-    script: "echo 'Building...'"
+
+unity-build:
     stage: build
-    tags: 
+    script: "echo 'Building...'"
+    tags:
+        - unity
+
+playstore:
+    stage: deploy
+    script: "echo 'Deploying...'"
+    tags:
         - unity
