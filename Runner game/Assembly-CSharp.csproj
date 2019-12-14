@@ -156,6 +156,7 @@
      <Compile Include="Assets\Third Party\Standard Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
      <Compile Include="Assets\Third Party\Standard Assets\Vehicles\Car\Scripts\Suspension.cs" />
      <Compile Include="Assets\Third Party\Standard Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
+     <Compile Include="Assets\Third Party\Starfield Skybox\Demo\Script\LookCamera.cs" />
      <Compile Include="Assets\Third Party\Supercyan Character Pack Free Sample\Scripts\CameraLogic.cs" />
      <Compile Include="Assets\Third Party\Supercyan Character Pack Free Sample\Scripts\Demo.cs" />
      <Compile Include="Assets\Third Party\Supercyan Character Pack Free Sample\Scripts\SimpleCharacterControl.cs" />

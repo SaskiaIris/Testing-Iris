@@ -39,12 +39,9 @@ public class PlayerMotor : MonoBehaviour {
 		}
 
 		//X = Left/Right
-		//moveVector.x = Input.GetAxisRaw("Horizontal") * speed;
 		if(Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.LeftArrow)) {
 			moveVector.x = -1;
-			//transform.position += new Vector3(-1, 0, 0);
 		} else if(Input.GetKeyDown(KeyCode.D) || Input.GetKeyDown(KeyCode.RightArrow)) {
-			//transform.position += new Vector3(1, 0, 0);
 			moveVector.x = 1;
 		}
 
