@@ -10,8 +10,8 @@ stages:
     - deploy
 unit-test: 
     script:
-        - 'd: cd "D:/Program Files/Unity/Editor/"' 
-        - '-batchmode -projectPath D:\Github\testing -runTests -testPlatform editmode -logfile -testResults
+        - 'd: cd "D:\Program Files\Unity Hub\Editor\2019.2.5f1\Editor\"' 
+        - '-batchmode -projectPath D:\Gebruikers\Iris Oostra\Documenten\GitHub\testing -runTests -testPlatform editmode -logfile -testResults
         ./unit-tests.xml | Out-Default'
     stage: test
     tags: 
