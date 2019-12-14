@@ -4,13 +4,18 @@ stages:
     - deploy
 unit-test: 
     script:
-        -'d: cd "D:\Program Files\Unity Hub\Editor\2019.2.5f1\Editor\"'
-        -'projectPath: D:\Gebruikers\Iris Oostra\Documenten\GitHub\testing'
-        -'batchmode: '
-        -'runTests: '
-        -'testPlatform: editmode'
-        -'logfile: '
-        -'testResults: ./unit-tests.xml | Out-Default'
+        - 'd: cd "D:\Program Files\Unity Hub\Editor\2019.2.5f1\Editor\"'
+        - '
+        .\Unity
+        -batchmode
+        -projectPath D:\Gebruikers\Iris Oostra\Documenten\GitHub\testing
+        -runTests
+        -testPlatform editmode
+        -logfile
+        -testResults
+        ./unit-tests.xml
+        | Out-Default
+        '
     stage: test
     tags: 
         - unity
