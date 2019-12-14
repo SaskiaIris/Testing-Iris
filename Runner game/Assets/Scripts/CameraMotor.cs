@@ -30,13 +30,14 @@ public class CameraMotor : MonoBehaviour {
 		//Y
 		moveVector.y = Mathf.Clamp(moveVector.y, 1, 3);
 
-		if(transition > 1.0f) {
+		/*if(transition > 1.0f) {
 			transform.position = moveVector;
 		} else {
 			//Start animation
 			transform.position = Vector3.Lerp(moveVector + animationOffset, moveVector, transition);
 			transition += Time.deltaTime * 1 / animationDuration;
 			transform.LookAt(lookAt.position + Vector3.up);
-		}
-    }
+		}*/
+		transform.position = moveVector;
+	}
 }
