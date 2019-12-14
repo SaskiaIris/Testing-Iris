@@ -180,7 +180,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6517450652799521223}
   m_Layer: 0
-  m_Name: Tile 4 2
+  m_Name: Tile 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -258,7 +258,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5493088, guid: 36fa542ac6a4348448902ff33d9f34c4, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 36fa542ac6a4348448902ff33d9f34c4, type: 3}
 --- !u!4 &716675524856929168 stripped
 Transform:
