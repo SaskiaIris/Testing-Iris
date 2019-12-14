@@ -6,6 +6,7 @@ unit-test:
     script:
         - 'd: cd "D:\Program Files\Unity Hub\Editor\2019.2.5f1\Editor\"'
         - 'projectPath D:\Gebruikers\Iris Oostra\Documenten\GitHub\testing'
+        - 'batchmode'
         - 'runTests'
         - 'testPlatform editmode'
         - 'logfile'
