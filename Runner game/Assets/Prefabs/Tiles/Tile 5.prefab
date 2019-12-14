@@ -210,10 +210,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8382411693683321277}
     m_Modifications:
-    - target: {fileID: 1300399225187642, guid: 7ed407e0aeced17448a2a8beade4d639, type: 3}
-      propertyPath: m_Name
-      value: Road Cone
-      objectReference: {fileID: 0}
     - target: {fileID: 4845857454134060, guid: 7ed407e0aeced17448a2a8beade4d639, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -270,7 +266,12 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 1300399225187642, guid: 7ed407e0aeced17448a2a8beade4d639, type: 3}
+      propertyPath: m_Name
+      value: Road Cone
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 54930060661347324, guid: 7ed407e0aeced17448a2a8beade4d639, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7ed407e0aeced17448a2a8beade4d639, type: 3}
 --- !u!4 &4390696966867145535 stripped
 Transform:

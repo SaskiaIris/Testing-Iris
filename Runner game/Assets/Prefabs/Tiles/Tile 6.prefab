@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 875745090544444506}
   m_Layer: 0
-  m_Name: Tile 4 1
+  m_Name: Tile 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -278,10 +278,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 875745090544444506}
     m_Modifications:
-    - target: {fileID: 1300399225187642, guid: 7ed407e0aeced17448a2a8beade4d639, type: 3}
-      propertyPath: m_Name
-      value: Road Cone
-      objectReference: {fileID: 0}
     - target: {fileID: 4845857454134060, guid: 7ed407e0aeced17448a2a8beade4d639, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1
@@ -338,7 +334,12 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 2
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 1300399225187642, guid: 7ed407e0aeced17448a2a8beade4d639, type: 3}
+      propertyPath: m_Name
+      value: Road Cone
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 54930060661347324, guid: 7ed407e0aeced17448a2a8beade4d639, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7ed407e0aeced17448a2a8beade4d639, type: 3}
 --- !u!4 &4944364306652389080 stripped
 Transform:

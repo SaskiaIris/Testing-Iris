@@ -7,13 +7,6 @@ public class CameraMotor : MonoBehaviour {
 	private Vector3 startOffset;
 	private Vector3 moveVector;
 
-	[SerializeField]
-	private float transition = 0.0f;
-	[SerializeField]
-	private float animationDuration = 2.0f;
-	[SerializeField]
-	private Vector3 animationOffset = new Vector3(0, 5, 5);
-
     // Start is called before the first frame update
     void Start() {
 		lookAt = GameObject.FindGameObjectWithTag("Player").transform;
@@ -30,14 +23,6 @@ public class CameraMotor : MonoBehaviour {
 		//Y
 		moveVector.y = Mathf.Clamp(moveVector.y, 1, 3);
 
-		/*if(transition > 1.0f) {
-			transform.position = moveVector;
-		} else {
-			//Start animation
-			transform.position = Vector3.Lerp(moveVector + animationOffset, moveVector, transition);
-			transition += Time.deltaTime * 1 / animationDuration;
-			transform.LookAt(lookAt.position + Vector3.up);
-		}*/
 		transform.position = moveVector;
 	}
 }
