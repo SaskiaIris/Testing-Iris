@@ -7,6 +7,8 @@ TagManager:
   - End
   - Tile
   - Start
+  - Life
+  - Obstacle
   layers:
   - Default
   - TransparentFX

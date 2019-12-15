@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4284591848986890247}
   m_Layer: 0
   m_Name: Tile_10
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -98,19 +98,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3915511318721108336, guid: 27eaae85d8f4a8b40b9f8b5fd97ec6c4,
+    - target: {fileID: 1193534243662402766, guid: 27eaae85d8f4a8b40b9f8b5fd97ec6c4,
         type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3915511318721108336, guid: 27eaae85d8f4a8b40b9f8b5fd97ec6c4,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3915511318721108336, guid: 27eaae85d8f4a8b40b9f8b5fd97ec6c4,
-        type: 3}
-      propertyPath: m_LocalScale.z
+      propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4080382279020239443}
   m_Layer: 0
   m_Name: Tile_5
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -102,6 +102,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4330975657625574055, guid: f65fab104c4dc2d4ab1a51432a6d96b2,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f65fab104c4dc2d4ab1a51432a6d96b2, type: 3}

@@ -214,6 +214,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: crate_clean
       objectReference: {fileID: 0}
+    - target: {fileID: 6514468, guid: 36fa542ac6a4348448902ff33d9f34c4, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 477072, guid: 36fa542ac6a4348448902ff33d9f34c4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1

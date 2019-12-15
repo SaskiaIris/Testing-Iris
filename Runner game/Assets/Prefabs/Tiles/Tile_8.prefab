@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2644402974822534700}
   m_Layer: 0
   m_Name: Tile_8
-  m_TagString: Untagged
+  m_TagString: Tile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -39,7 +39,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6435619938243840738}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.64863896, y: 0.98084724, z: 0.64838564}
@@ -111,30 +111,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5058429593394510559, guid: 5d5f98e808f394d47a1572ad3f98e27a,
+    - target: {fileID: 4097790792028098001, guid: 5d5f98e808f394d47a1572ad3f98e27a,
         type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5058429593394573455, guid: 5d5f98e808f394d47a1572ad3f98e27a,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5058429593394565205, guid: 5d5f98e808f394d47a1572ad3f98e27a,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5058429593394468473, guid: 5d5f98e808f394d47a1572ad3f98e27a,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5058429593394573743, guid: 5d5f98e808f394d47a1572ad3f98e27a,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5d5f98e808f394d47a1572ad3f98e27a, type: 3}
