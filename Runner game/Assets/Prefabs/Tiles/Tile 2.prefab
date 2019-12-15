@@ -203,19 +203,6 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!65 &5675222559291184581
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4632681291259111208}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 6.561902, y: 7.0736146, z: 15.472392}
-  m_Center: {x: 0.11031157, y: 0.07231944, z: 0.21572065}
 --- !u!1001 &4632681291259142530
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -271,26 +258,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 400010, guid: c242e8f877bfdcd41baf7688f8257e61, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.12
-      objectReference: {fileID: 0}
-    - target: {fileID: 400010, guid: c242e8f877bfdcd41baf7688f8257e61, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 0.12
-      objectReference: {fileID: 0}
-    - target: {fileID: 400010, guid: c242e8f877bfdcd41baf7688f8257e61, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 0.12
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c242e8f877bfdcd41baf7688f8257e61, type: 3}
---- !u!1 &4632681291259111208 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100010, guid: c242e8f877bfdcd41baf7688f8257e61,
-    type: 3}
-  m_PrefabInstance: {fileID: 4632681291259142530}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4632681291259542280 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400010, guid: c242e8f877bfdcd41baf7688f8257e61,

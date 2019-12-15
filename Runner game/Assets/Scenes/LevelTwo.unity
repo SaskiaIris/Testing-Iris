@@ -1294,7 +1294,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 1973336283045345084, guid: e288fc507a03c964fab36eeb44c2df70,
+        type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8135588250774710220, guid: e288fc507a03c964fab36eeb44c2df70, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e288fc507a03c964fab36eeb44c2df70, type: 3}
 --- !u!1001 &1262781932
 PrefabInstance:
@@ -2470,7 +2476,7 @@ PrefabInstance:
     - target: {fileID: 6999442432860952856, guid: 953fc0d839eb76e4b9cd0f29e57cccad,
         type: 3}
       propertyPath: speed
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 953fc0d839eb76e4b9cd0f29e57cccad, type: 3}
