@@ -8,7 +8,7 @@ public class PlayerMotor : MonoBehaviour {
 	private Vector3 moveVector;
 
 	[SerializeField]
-	private float speed = 5.0f;
+	private float speed = 8.0f;
 	[SerializeField]
 	private float verticalVelocity = 0.0f;
 	[SerializeField]
