@@ -15,6 +15,6 @@ public class Build : MonoBehaviour {
 			//"Assets/Scenes/LevelTwo.unity"
 		};
 
-		BuildPipeline.BuildPlayer(scenes, "D:/GitHub/testing/Runner game/Builds/Runner game.exe", BuildTarget.StandaloneWindows64, BuildOptions.None);
+		BuildPipeline.BuildPlayer(scenes, "D:/GitHub/testing/RunnerGame/Builds/V6/RunnerGame.exe", BuildTarget.StandaloneWindows64, BuildOptions.None);
 	}
 }
