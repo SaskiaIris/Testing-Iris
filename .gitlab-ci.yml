@@ -10,8 +10,9 @@ unit-test:
         - unity
 
 unity-build:
+    script: 
+        - 'd: cd "D:\Program Files\Unity Hub\Editor\2019.2.5f1\Editor\" -batchmode - nographics \ - executeMethod BuildScript.Build -projectPath D:\Gebruikers\Iris Oostra\Documenten\GitHub\testing - quit | Out-Default'
     stage: build
-    script: "echo 'Building...'"
     tags:
         - unity
 
