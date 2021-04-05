@@ -11,8 +11,9 @@ namespace Tests
 	{
 		[UnityTest]
 		public IEnumerator MoveLeftWithEnumeratorPasses() {
-			PlayerMotor player = GameObject.FindObjectOfType<PlayerMotor>();
-			Assert.AreEqual(player.MoveLeft(), new Vector3(-1f, player.transform.position.y, player.transform.position.z));
+			GameObject player = GameObject.FindWithTag("Player");
+			//PlayerMoter player = GameObject.FindObjectOfType<PlayerMotor>();
+			Assert.AreEqual(player.GetComponent<PlayerMotor>().MoveLeft(), new Vector3(-1f, player.transform.position.y, player.transform.position.z));
 
 			yield return null;
 		}

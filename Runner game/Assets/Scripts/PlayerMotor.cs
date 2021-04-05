@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerMotor : MonoBehaviour {
 	private CharacterController controller;
-	private Transform transform;
+	//private Transform transform;
 	private Vector3 moveVector;
 
 	[SerializeField]
@@ -20,7 +20,7 @@ public class PlayerMotor : MonoBehaviour {
 	// Start is called before the first frame update
 	void Start() {
 		controller = GetComponent<CharacterController>();
-		transform = GetComponent<Transform>();
+		//transform = GetComponent<Transform>();
     }
 
     // Update is called once per frame
@@ -69,7 +69,7 @@ public class PlayerMotor : MonoBehaviour {
 	}
 
 	public Vector3 MoveLeft() {
-		float left = transform.position.x;
+		float left = this.transform.position.x;
 
 		left--;
 
