@@ -67,4 +67,21 @@ public class PlayerMotor : MonoBehaviour {
 			transform.position = new Vector3(-1, transform.position.y, transform.position.z);
 		}
 	}
+
+	public Vector3 MoveLeft() {
+		float left = transform.position.x;
+
+		left--;
+
+		return new Vector3(left, transform.position.y, transform.position.z);
+	}
+
+	public Vector3 MoveRight() {
+		float right = transform.position.x;
+
+		right++;
+
+		return new Vector3(right, transform.position.y, transform.position.z);
+		
+	}
 }
